@@ -1,0 +1,142 @@
+body{
+    margin: 0px 150px 0px 150px;
+}
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    border-bottom-color: #BDBDBD ;
+}
+
+#suno-logo{
+    width: 112px;
+    padding: 50px;
+}
+
+a{
+    color: #FCFCFC;
+    padding: 10px;
+    font-family: 'work sans';
+    text-decoration: none;
+}
+
+a :hover{
+    text-decoration: underline;
+    text-decoration-color: #FBB03B;
+}
+
+#landing-cover{
+    width: 100%;
+    height: auto;
+}
+
+.banner{
+    align-items: center;
+    justify-content: center;
+}
+
+.ratings{
+    display: flex;
+    width: 80%;
+    background-color: #bebfee;
+    #background-color: #FDFDFC;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 41px;
+    border: #BDBDBD;
+    border-width: 2.5 px ;
+}
+
+.ratings-container{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+h2{
+    font-size: 64px;
+    color: #2A2C91;
+    font-family: 'poppins';
+    margin: 0;
+}
+
+p{
+    font-family: 'work sans';
+    font-size: 16px;
+}
+
+.commitments, .services{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+h3{
+    font-family: 'work sans';
+}
+
+button{
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'work sans';
+    color: #2A2C91;
+    border-color: #2A2C91;
+    color: #BDBDBD;
+    width: 200px;
+}
+
+#commitments-group{
+    height: 400px;
+    width: auto;
+}
+
+.sliding-carousel{
+    width: 100%;
+    background-color: #1E1E1E;
+    height: 175px;
+}
+
+.services-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #FBB03B;
+}
+
+h4{
+    font-family: 'work sans';
+}
+
+.services-anchor{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F6F3;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    border-radius: 32px;
+}
+
+.anchor-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #2E3192;
+}
