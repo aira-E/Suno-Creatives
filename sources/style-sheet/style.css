@@ -1,5 +1,4 @@
 
-
 .nav-bar{
     width: 100%;
     height: auto;
@@ -45,7 +44,7 @@ a:hover { /* Remove the space here */
     margin: 0 auto;
     border-radius: 41px;
     border: solid 2px #BDBDBD;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 100px 0px 100px;
     margin-top: -64px;
     position:relative;
     z-index: 2;
@@ -70,7 +69,7 @@ p{
     font-size: 16px;
 }
 
-.commitments, .services, .features{
+.commitments, .services{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -79,9 +78,21 @@ p{
     width: 80%;
 }
 
-.features-heading{
-    width: 80%;
+.features{
+    height: 100vh;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
+    width: 80%;
+    flex-direction: column;
+}
+
+.features-heading{
+    width: 100%;
+    justify-content: space-between;
+    background-color: #FFFF;
+    height: max-content;
+    padding: 32px;
 }
 
 h3{
@@ -90,7 +101,7 @@ h3{
     font-weight: 300;
 }
 
-button{
+.sudoC-button{
     border-radius: 40px;
     padding: 16px;
     font-family: 'work sans';
@@ -166,13 +177,40 @@ h4{
     margin: 16px;
 }
 
-.container{
+.features-heading-container{
     display: flex;
 }
 
 .feature-descriptions{
-    border-radius: 999px;
+    border-radius: 32px;
     display: flex;
     justify-content: center;
-    border: solid 2px;
+    padding: 0px 16px 0px 16px;
+    align-items: center;
+}
+
+.feature-descriptions-container{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+#tag1{
+    border: solid 2px #D72D5A;
+    color: #D72D5A;
+}
+
+#tag2{
+    border: solid 2px #FBB03B;
+    color: #FBB03B;
+}
+
+#tag3{
+    border: solid 2px #29ABE2;
+    color: #29ABE2;
+}
+
+#tag4{
+    border: solid 2px #F15A24;
+    color: #F15A24;
 }
