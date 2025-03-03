@@ -1,6 +1,4 @@
-body{
-    margin: 0px 150px 0px 150px;
-}
+
 
 .nav-bar{
     width: 100%;
@@ -8,7 +6,7 @@ body{
     background-color: #1A1A1A;
     display: flex;
     align-items: center;
-    border-bottom-color: #BDBDBD ;
+    border-bottom: solid 2px #BDBDBD;
 }
 
 #suno-logo{
@@ -16,17 +14,18 @@ body{
     padding: 50px;
 }
 
-a{
+a {
     color: #FCFCFC;
     padding: 10px;
-    font-family: 'work sans';
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
 }
 
-a :hover{
+a:hover { /* Remove the space here */
     text-decoration: underline;
     text-decoration-color: #FBB03B;
 }
+
 
 #landing-cover{
     width: 100%;
@@ -41,13 +40,15 @@ a :hover{
 .ratings{
     display: flex;
     width: 80%;
-    background-color: #bebfee;
-    #background-color: #FDFDFC;
+    background-color: #FDFDFC;
     justify-content: space-between;
     margin: 0 auto;
     border-radius: 41px;
-    border: #BDBDBD;
-    border-width: 2.5 px ;
+    border: solid 2px #BDBDBD;
+    padding: 0px 50px 0px 50px;
+    margin-top: -64px;
+    position:relative;
+    z-index: 2;
 }
 
 .ratings-container{
@@ -69,7 +70,7 @@ p{
     font-size: 16px;
 }
 
-.commitments, .services{
+.commitments, .services, .features{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -78,19 +79,25 @@ p{
     width: 80%;
 }
 
+.features-heading{
+    width: 80%;
+    margin: 0 auto;
+}
 
 h3{
     font-family: 'work sans';
+    font-size: 59px;
+    font-weight: 300;
 }
 
 button{
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 16px;
     font-family: 'work sans';
     color: #2A2C91;
-    border-color: #2A2C91;
-    color: #BDBDBD;
     width: 200px;
+    height: min-content;
+    border: solid 2px #2A2C91;
 }
 
 #commitments-group{
@@ -102,16 +109,23 @@ button{
     width: 100%;
     background-color: #1E1E1E;
     height: 175px;
+    position: relative;
+    z-index: 100;
 }
 
-.services-heading{
+
+.services-heading, .services,  .features-heading{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .services-description{
     display: flex;
     justify-content: space-between;
+    margin: 16px;
+    width: 100%;
+    align-items: center;
 }
 
 .services-icon{
@@ -132,6 +146,9 @@ h4{
     align-items: center;
     padding: 0px 15px 0px 15px;
     border-radius: 32px;
+    border: solid 2px #BDBDBD;
+    margin: 16px;
+    width: 100%;
 }
 
 .anchor-icon{
@@ -139,4 +156,23 @@ h4{
     height: 40px;
     border-radius: 50px;
     background-color: #2E3192;
+}
+.services-right-panel{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.container{
+    display: flex;
+}
+
+.feature-descriptions{
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
 }
