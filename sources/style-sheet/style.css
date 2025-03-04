@@ -68,7 +68,7 @@ p{
     font-size: 16px;
 }
 
-.commitments, .services, .blog{
+.commitments, .services{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -228,6 +228,16 @@ h4{
     height: auto;
 }
 
+.blog{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: column;
+}
+
 .blog-nav{
     width: 100%;
     height: auto;
@@ -239,19 +249,54 @@ h4{
     font-family: 'Work Sans';
 }
 
-.blog-co{
-   
+.faqs{
+    height: 100vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    background-color: #FDFDFC;
-    justify-content: space-between;
     margin: 0 auto;
-    border-radius: 41px;
-    border: solid 2px #BDBDBD;
-    padding: 0px 100px 0px 100px;
-    margin-top: -64px;
-    position:relative;
-    z-index: 2;
-    
 }
+
+.footer{
+    background-color: #1E1E1E;
+    height: 664px;
+    width: 100%;
+}
+
+.footer-content{
+    width: 80%;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-logo{
+    height: 85px;
+}
+
+.socialmedia-icons i{
+    color: #ffff;
+}
+
+.copyright{
+    background-color: #D72D5A;
+    height: 63px;
+
+}
+
+.copyright-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
