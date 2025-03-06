@@ -953,6 +953,16 @@ h4{
     margin-bottom: -2px;
 }
 
+.other-blog .author-img {
+    height: 20px;
+    width: 20px;
+}
+
+.other-blog .author-img img {
+    height: 12px;
+    width: 12px;
+}
+
 .other-blog .author-name {
     font-size: 10px;
 }
