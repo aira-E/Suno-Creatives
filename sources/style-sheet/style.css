@@ -958,6 +958,10 @@ h4{
     width: 20px;
 }
 
+.other-blog .blog-author {
+    gap: 4px;
+}
+
 .other-blog .author-img img {
     height: 12px;
     width: 12px;
