@@ -77,6 +77,10 @@
   width: 80%;
 }
 
+.commitments p{
+  font-size: 30px;
+}
+
 #commitments-group {
   height: 400px;
   width: auto;
@@ -133,7 +137,7 @@
 .services-heading h3 {
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 49px;
+  font-size: 60px;
   line-height: 59px;
   letter-spacing: -2px;
   color: #1e1e1e;
@@ -157,7 +161,7 @@
 
 .services-description p {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: -1px;
   color: #1e1e1e;
   margin-bottom: 6px;
@@ -169,6 +173,11 @@
   border-radius: 50%;
   background-color: #fbb03b;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DA0052;
+  font-size: 25px ;
 }
 
 .services-anchor {
@@ -212,7 +221,17 @@
   height: 40px;
   border-radius: 50px;
   background-color: #2e3192;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.upward-arrow {
+  display: inline-block;
+  transform: rotate(-45deg); /* Rotate the icon 45 degrees counterclockwise */
+}
+
 
 .services-left-panel {
   display: flex;
