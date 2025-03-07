@@ -325,9 +325,32 @@
   line-height: 46.8px;
 }
 
-#parallax-scroll {
+.parallax-scroll {
   width: 100%;
-  height: auto;
+  height: 336px;
+  background-color: #FBB03B;
+  position: relative;
+  overflow: hidden; /* Keeps images contained */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#parallax-img1, #parallax-img2 {
+  height: 400px;
+  position: absolute;
+}
+
+#parallax-img1 {
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#parallax-img2 {
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
 }
 
 .testimonials {
